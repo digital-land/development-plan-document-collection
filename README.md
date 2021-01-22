@@ -1,10 +1,10 @@
-# XXX collection
+# Development Policy Documents collection
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
 
-A collection of XXX collected from YYY.
+A collection of Development Policy Documents collected from Local Authorities.
 
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [ZZZ schema](https://digital-land.github.io/specification/schema/ZZZ/).
+The national dataset is in a format consistent with other Digital Land datasets as defined by the [development-plan-document schema](https://digital-land.github.io/specification/schema/development-plan-document/).
 
 # Collection
 
@@ -25,7 +25,7 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
 
 # Nightly collection
 
-The collection is [updated nightly](https://github.com/digital-land/brownfield-land-collection-new/actions) by the [GitHub Action](.github/workflows/run.yml).
+The collection is [updated nightly](https://github.com/digital-land/development-plan-document-collection/actions) by the [GitHub Action](.github/workflows/run.yml).
 
 # Building the national dataset
 
