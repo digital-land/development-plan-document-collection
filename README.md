@@ -1,8 +1,8 @@
-# Development Policy Documents collection
+# Development Plan Document collection
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
 
-A collection of Development Policy Documents collected from Local Authorities.
+A collection of Development Plan Documents collected from Local Authorities.
 
 The national dataset is in a format consistent with other Digital Land datasets as defined by the [development-plan-document schema](https://digital-land.github.io/specification/schema/development-plan-document/).
 
