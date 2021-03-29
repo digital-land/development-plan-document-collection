@@ -1,8 +1,12 @@
 DEVELOPMENT_PLAN_DOCUMENT_DATASET=$(DATASET_DIR)development-plan-document.csv
 DEVELOPMENT_PLAN_DOCUMENT_TRANSFORMED_FILES=\
+    $(TRANSFORMED_DIR)development-plan-document/1866958e42625fb85a4fdbd8573231474c6368f9d614a6ce5b6f8fa5355d1d43.csv\
     $(TRANSFORMED_DIR)development-plan-document/37236e7dbb9f3899ebf5f7c074827b210937a2a515ca426490dc6d364e087052.csv\
     $(TRANSFORMED_DIR)development-plan-document/5a2146a11519805b4ecd9f3b954cf4d1578428cada0b3586834de16ccf42756c.csv\
     $(TRANSFORMED_DIR)development-plan-document/d949e93c7f803360311208c92f9246584389e13cb7010fc7d06879b87ea758e7.csv
+
+$(TRANSFORMED_DIR)development-plan-document/1866958e42625fb85a4fdbd8573231474c6368f9d614a6ce5b6f8fa5355d1d43.csv: collection/resource/1866958e42625fb85a4fdbd8573231474c6368f9d614a6ce5b6f8fa5355d1d43
+	$(run-pipeline)
 
 $(TRANSFORMED_DIR)development-plan-document/37236e7dbb9f3899ebf5f7c074827b210937a2a515ca426490dc6d364e087052.csv: collection/resource/37236e7dbb9f3899ebf5f7c074827b210937a2a515ca426490dc6d364e087052
 	$(run-pipeline)
