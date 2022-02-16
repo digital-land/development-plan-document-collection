@@ -1,4 +1,4 @@
-pipeline,resource,organisation,value,entity
+prefix,resource,organisation,value,entity
 development-plan-document,,,dev-plan-buc-avdlp,4900000
 development-plan-document,,,dev-plan-buc-blp,4900001
 development-plan-document,,,dev-plan-buc-bmwlp,4900002
